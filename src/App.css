@@ -31,6 +31,12 @@ body {
     padding-top: 30px;
 }
 
+@media only screen and (max-width: 768px) {
+    .containerSearch {
+        width: auto;
+    }
+}
+
 h1 {
     margin-top: 30px;
     color: white;
@@ -62,6 +68,14 @@ input {
     padding-left: 70px;
 }
 
+@media only screen and (max-width: 768px) {
+    input {
+        width: 77%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}
+
 input:focus {
     color: white;
 }
@@ -75,10 +89,30 @@ input:focus {
     margin-top: -2px;
 }
 
+@media only screen and (max-width: 768px) {
+    .line  {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: -5px;
+    }
+}
+
 input:focus + .line {
     margin-top: -2px;
     width: 100%;
     background: #FFE301;
+}
+
+@media only screen and (max-width: 768px) {
+    input:focus + .line  {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: -5px;
+    }
 }
 
 button {
@@ -92,6 +126,13 @@ button {
     background: #FFE301;
     color: #3F5A9F;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    button {
+        margin: 30px auto;
+        width: 80%;
+    }
 }
 
 .form {
@@ -109,6 +150,12 @@ button {
     background-image: linear-gradient(white, #2959A4);
     border-radius: 10px;
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .containerDisplay {
+        width: 70%;
+    }
 }
 
 .titleDisplay {

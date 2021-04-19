@@ -10,6 +10,12 @@
     margin-left: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+    .loupe {
+        margin-left: 50px;
+    }
+}
+
 .cloudy {
     margin-top: 30px;
     align-items: center;
