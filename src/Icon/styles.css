@@ -1,0 +1,17 @@
+.sun {
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.loupe {
+    position: absolute;
+    display: block;
+    margin-left: 20px;
+}
+
+.cloudy {
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
