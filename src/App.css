@@ -10,7 +10,7 @@ body {
 }
 
 .app {
-    background-image: url('Images/image7.png');
+    background-color: #2a59a4;
     mix-blend-mode: hard-light;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -141,7 +141,7 @@ button {
 
 /*          display           */
 .containerDisplay {
-    width: 20%;
+    width: 30%;
     height: 400px;
     background-image: linear-gradient(white, #2959A4);
     border-radius: 10px;
@@ -150,7 +150,7 @@ button {
 
 @media only screen and (max-width: 768px) {
     .containerDisplay {
-        width: 70%;
+        width: 80%;
     }
 }
 
