@@ -10,7 +10,7 @@ It is an application that allows you to check the weather in any place in the wo
 In the place of input you have to enter the place you want to search and click the button. After a while, the current weather will appear below.
 
 ### How was the application written? 🧐
-I used the **React** library to write this application, because I wanted to experience writing such an applications also in this library. This app is also mobile scalable where I used: **@media**. The weather content is downloaded from the API via 'key' and 'base', i.e. the content of the query referring to a given place.
+I used the **React** library to write this application, because I wanted to experience writing such an applications in this library. This app is also mobile scalable where I used: **@media**. The weather content is downloaded from the API via 'key' and 'base', i.e. the content of the query referring to a given place.
 
 ### What have I learned? 💭
 Writing this application taught me how to put simple and short API requests to get the right information and how React works. 
