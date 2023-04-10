@@ -16,3 +16,7 @@ I used the **React** library to write this application, because I wanted to expe
 Writing this application taught me how to put simple and short API requests to get the right information and how React works. 
 
 ⁉️ React is a javascript library for building a UI (user interface), using small and pieces (components).
+
+##### You can also see this application at this [link](https://codesandbox.io/s/weather-app-p4ncf2?file=/src/App.js). 
+
+
