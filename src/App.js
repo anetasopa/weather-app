@@ -1,8 +1,8 @@
 import './App.css';
-import Sun from "./Icon/Sun";
-import {useState} from "react";
-import Loupe from "../src/Icon/Loupe";
-import Cloudy from "./Icon/Cloudy";
+import { useState } from 'react';
+import Loupe from '../src/Icon/Loupe';
+import Cloudy from './Icon/Cloudy';
+import Sun from './Icon/Sun';
 
 const api = {
     key: "55e7b3a3ccbe4572d148829af1556fc5",
