@@ -1,5 +1,5 @@
 import './App.css';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Loupe from '../src/Icon/Loupe';
 import Cloudy from './Icon/Cloudy';
 import Sun from './Icon/Sun';
@@ -55,10 +55,6 @@ function App() {
         setWeather(result);
       });
   };
-
-  useEffect(() => {
-    fetchDataAboutWeather();
-  }, [query]);
 
   const getWeather = () => {
     fetchDataAboutWeather();
