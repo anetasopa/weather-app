@@ -9,6 +9,10 @@ body {
     font-family: 'monospace', sans-serif;
 }
 
+span {
+    color: white;
+}
+
 .app {
     background-color: #2a59a4;
     mix-blend-mode: hard-light;
