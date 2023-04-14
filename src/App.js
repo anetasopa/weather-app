@@ -72,7 +72,7 @@ function App() {
     <div className="app">
       <div className="containerSearch">
         <h1>Weather App</h1>
-        <span>Type in city name, eg.: London, Berlin, New York, Dubai</span>
+        <span className="span">Type in city name, eg.: London, Berlin, New York, Dubai</span>
         <div className="form">
           <div>
             <Loupe />
