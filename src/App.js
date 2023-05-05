@@ -3,9 +3,10 @@ import { useState } from 'react';
 import Loupe from '../src/Icon/Loupe';
 import Cloudy from './Icon/Cloudy';
 import Sun from './Icon/Sun';
+import key from './config.py'
 
 const api = {
-  key: "55e7b3a3ccbe4572d148829af1556fc5",
+  key: key.key,
   base: "https://api.openweathermap.org/data/2.5/"
 };
 
